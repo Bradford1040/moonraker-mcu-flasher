@@ -1,0 +1,54 @@
+# Local Project Files
+*.env
+secrets.conf
+.moonraker.conf.bak
+*.local.config
+*.iws
+Untitled.*
+
+# gemini-cli settings
+.gemini/
+
+# GitHub App credentials
+gha-creds-*.json
+
+# Package Managers
+/node_modules/
+/site-packages/
+/venv/
+.venv
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE-specific files
+.idea/
+*.iml
+# .shellcheckrc
+.vscode/
+.project
+.settings
+.iws
+*.ipr
+*.tmproot
+*.tmps
+*.tmp
+*.user
+*.workspace
+*.tasks
+*.mypy_cache
+
+# Build artifacts
+dist/
+build/
+*.out
+*.o
+*.bak
+*.old
+*.test
+*.pyc
+*.log
+
+# Git-specific files
+*.orig
