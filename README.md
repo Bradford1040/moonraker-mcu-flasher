@@ -10,7 +10,7 @@ To install the MCU_FLASHER component, follow these steps:
 
    ```bash
    cd ~
-   git clone https://github.com/bradford1040/moonraker-mcu-flasher.git
+   git clone -b develop --single-branch https://github.com/bradford1040/moonraker-mcu-flasher.git
    ```
 
 2. Create symbolic links for the necessary files:
